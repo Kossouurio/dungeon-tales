@@ -10,9 +10,6 @@ navLinks.classList.toggle('mobile-menu')
 const currentYear = new Date().getFullYear();
 document.getElementById("currentYear").innerHTML = currentYear;
 
-// Animated
-AOS.init();
-
 // Carrousel
 $(document).ready(function(){
     $('.slider').slick({
