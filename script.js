@@ -17,7 +17,7 @@ AOS.init();
 $(document).ready(function(){
     $('.slider').slick({
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         fade: true,
         cssEase: 'linear',
         arrows: false,
